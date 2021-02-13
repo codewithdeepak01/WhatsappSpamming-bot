@@ -1,0 +1,8 @@
+import pyautogui
+import time
+time.sleep(5)
+i=0
+while (i<5000):
+    pyautogui.typewrite('Hey There!!, Deepak this side')
+    pyautogui.press('enter')
+    i=i+1
